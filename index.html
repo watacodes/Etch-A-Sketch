@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Lobster&display=swap" rel="stylesheet">    <link rel="stylesheet" href="styles.css">
+    <title>Etch-A-Sketch</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1 class="title">Etch-A-Sketch</h1>
+    
+    <p class="description">This is a very simple Etch-A-Sketch board. By hovering your mouse, you can draw whatever you want.
+        <br><br> If you click the "Change Size" button, you can change the board size and enter an integer.
+        <br><br> You may want to click the "Rainbow" button to see how it works!
+        <br><br> If you want to use the original color, please press the "Grey" button.
+    </p>
+    
+    <div id="container">
+        <button id="btn-Erase">Erase</button>
+        <button id="btn-SizeChanger">Change Size</button>
+        <button id="btn-Rainbow">Rainbow</button>
+        <button id="btn-Grey">Grey</button>
+    </div>
+
+    <div id="box-container">
+        <div id="grid-container"></div>
+    </div>
+  </body>
+</html>
