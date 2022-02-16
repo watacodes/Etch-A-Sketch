@@ -1,1 +1,4 @@
-# An Etch-A-Sketch project, spent 4 days to complete the project.
+# Etch-A-Sketch project.
+
+
+## This is a project from The Odin Project.
